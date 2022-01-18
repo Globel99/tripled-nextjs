@@ -1,5 +1,7 @@
 html,
 body {
+  --brand-color: #343450;
+  color: var(--brand-color);
   padding: 0;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
@@ -11,6 +13,96 @@ a {
   text-decoration: none;
 }
 
+p {
+  margin: 0;
+}
+
 * {
   box-sizing: border-box;
+}
+
+svg {
+  height: 100%;
+}
+
+.header svg path {
+  fill: white;
+}
+
+.banner svg path {
+  fill: var(--brand-color);
+}
+
+.banner svg line {
+  stroke: var(--brand-color);
+}
+
+.banner {
+  height: 120px;
+}
+
+.header {
+  height: 80px;
+  background-color: var(--brand-color);
+  width: 100%;
+}
+
+.center {
+  display: grid;
+  place-items: center;
+}
+
+.main {
+  margin: 30px;
+}
+
+.card-image{
+  height: 50px;
+}
+
+.card {
+  cursor: pointer;
+  max-width: 500px;
+  margin: auto;
+  background-color: rgba(52, 52, 80, 0.01);
+  margin-top: 24px;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.05);
+  transition: 0.3s;
+  border-radius: 40px;
+  padding: 24px;
+}
+
+.card:hover {
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+}
+
+.card * {
+  font-size: 24px;
+}
+
+.card .title {
+  font-weight: bold;
+  margin: 18px;
+}
+
+.card .content{
+  width: 100%;
+}
+
+.card .content div p:first-child{
+  font-weight: bold;
+}
+
+.card .content div{
+  display: flex;
+  margin-top: 4px;
+  margin-bottom: 12px;
+  flex-direction: row;
+  align-items: center;
+}
+
+.card .content div p:last-child{
+  font-size: 14px;
+  font-weight: 400;
 }
