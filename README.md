@@ -4,12 +4,21 @@ This is a NextJS project.
 
 # Getting started
 - Install depedencies with yarn
+
 - Run a local dev server with
-    yarn dev
+```
+yarn dev
+```
+
 - Preview a production server
-    yarn start
+```
+yarn start
+```
+
 - Build the project
-    yarn build
+```
+yarn build
+```
 
 # Hosting
 The site is hosted on Netlify:
