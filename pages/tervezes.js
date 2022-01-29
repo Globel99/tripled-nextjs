@@ -1,7 +1,7 @@
-import Head from 'next/head'
-import Logo from '../components/logo'
-import Banner from '../components/banner'
-import baseStyle from '../components/base.module.css'
+import Head from "next/head";
+import Logo from "../components/logo";
+import Banner from "../components/banner";
+import baseStyle from "../components/base.module.css";
 
 export default function Home() {
   return (
@@ -13,19 +13,16 @@ export default function Home() {
       </Head>
 
       <main>
-        <div className='header center'>
+        <div className="header center">
           <div className={baseStyle.logo}>
-            <Logo/>
+            <Logo />
           </div>
         </div>
 
-        <div className='main'>
-          asd
-        </div>
+        <div className="main">asd</div>
       </main>
 
-      <footer>
-      </footer>
+      <footer></footer>
     </div>
-  )
+  );
 }

@@ -1,3 +1,23 @@
-.logo svg{
-    height: 35px;
+.logo svg {
+  height: 35px;
+}
+
+.themeSwitch {
+  position: absolute;
+  left: 20px;
+}
+
+.themeSwitch button {
+  all: unset;
+  background-color: transparent;
+  border: 1px solid grey;
+  border-radius: 30px;
+  padding: 5px 10px;
+  transition: 0.5s;
+}
+
+.themeSwitch button:hover {
+  transition: 0.5s;
+  cursor: pointer;
+  background-color: rgba(50, 50, 50, 0.5);
 }
