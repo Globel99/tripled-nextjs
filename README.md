@@ -1,8 +1,8 @@
-## TripleD - A Webpage for our company focused on 3D printing solutions.
+# TripleD - A Webpage for our company focused on 3D printing solutions.
 
 This is a NextJS project.
 
-# Getting started
+## Getting started
 - Install depedencies with yarn
 
 - Run a local dev server with
@@ -20,7 +20,7 @@ yarn start
 yarn build
 ```
 
-# Hosting
+## Hosting
 The site is hosted on Netlify:
 [https://hopeful-goodall-ed4560.netlify.app/](https://hopeful-goodall-ed4560.netlify.app/)
 
